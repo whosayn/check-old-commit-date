@@ -1,5 +1,4 @@
 # check-old-commit-date
-=========================
 
 A prepare-commit-msg hook for [pre-commit](https://github.com/pre-commit/pre-commit)
 intended to prevent contributors from pushing commits with old dates.
