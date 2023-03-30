@@ -1,0 +1,7 @@
+- id: check-old-commit-date
+  name: Check old commit dates
+  description: This hook makes sure that commit message dates are up-to-date.
+  entry: check_old_commit_date
+  language: python
+  always_run: true
+  stages: [prepare-commit-msg]
